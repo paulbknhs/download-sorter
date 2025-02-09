@@ -4,7 +4,7 @@
 #include <sys/stat.h>
 #include <unistd.h>
 
-#define DOWNLOADS_DIR "/home/paul/Downloads/"
+#define DOWNLOADS_DIR "/home/paul/Downloads"
 
 int index_of_last_dot(char *filename) {
   int index = -1;
